@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FCG_NOTIFICATIONSAPI.Controllers.EmailController",
+    "Method": "WelcomeEmail",
+    "RelativePath": "Email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

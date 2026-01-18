@@ -1,4 +1,6 @@
+using FCG_NOTIFICATIONSAPI.Interfaces.Services;
 using FCG_NOTIFICATIONSAPI.Models;
+using FCG_NOTIFICATIONSAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -42,7 +44,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //builder.Services.AddScoped<IGameRepository, GameRepository>();
 
 // Register application services (Scoped is appropriate when using DbContext)
-//builder.Services.AddScoped<IGameService, GameService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 builder.Services.AddAutoMapper(cfg => { /* configuration */ }, AppDomain.CurrentDomain.GetAssemblies());
 
