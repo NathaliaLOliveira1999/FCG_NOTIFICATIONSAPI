@@ -15,27 +15,28 @@ namespace FCG_NOTIFICATIONSAPI.Services
 
         public async Task SendAsync(string to, string subject, string body)
         {
-            var smtpClient = new SmtpClient
+            var smtp = new SmtpClient("smtp.office365.com", 587)
             {
-                Host = _config["Email:Host"],
-                Port = int.Parse(_config["Email:Port"]),
-                EnableSsl = true,
+                EnableSsl = true, // 🔴 OBRIGATÓRIO
+                UseDefaultCredentials = false, // 🔴 OBRIGATÓRIO
                 Credentials = new NetworkCredential(
-                    _config["Email:User"],
-                    _config["Email:Password"])
+           "nathalia_leite_12@hotmail.com",
+           "ubzackishxhkkuad" // senha de aplicativo SEM espaços
+       ),
+                DeliveryMethod = SmtpDeliveryMethod.Network
             };
 
-            var mailMessage = new MailMessage
+            var message = new MailMessage
             {
-                From = new MailAddress(_config["Email:From"]),
+                From = new MailAddress("nathalia_leite_12@hotmail.com"),
                 Subject = subject,
                 Body = body,
                 IsBodyHtml = true
             };
 
-            mailMessage.To.Add(to);
+            message.To.Add(to);
 
-            await smtpClient.SendMailAsync(mailMessage);
+            await smtp.SendMailAsync(message);
         }
     }
 }

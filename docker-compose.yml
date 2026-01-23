@@ -1,0 +1,18 @@
+services:
+  fcg_notificationsapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fcg_notificationsapi:v2
+    ports:
+      - "8084:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=PCGPROJ;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True
+    networks:
+      - pcg-network
+    restart: unless-stopped
+
+networks:
+  pcg-network:
+    external: true
