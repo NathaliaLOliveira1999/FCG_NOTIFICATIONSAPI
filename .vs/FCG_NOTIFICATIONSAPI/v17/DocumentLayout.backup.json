@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|c:\\fiap proj\\fcg_notificationsapi\\fcg_notificationsapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|solutionrelative:fcg_notificationsapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|c:\\fiap proj\\fcg_notificationsapi\\fcg_notificationsapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|solutionrelative:fcg_notificationsapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|c:\\fiap proj\\fcg_notificationsapi\\fcg_notificationsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|solutionrelative:fcg_notificationsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|c:\\fiap proj\\fcg_notificationsapi\\fcg_notificationsapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|solutionrelative:fcg_notificationsapi\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4259185B-F1E7-4136-B81F-B9159A8B7322}|FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI.csproj|c:\\fiap proj\\fcg_notificationsapi\\fcg_notificationsapi\\interfaces\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\appsettings.json",
               "RelativeDocumentMoniker": "FCG_NOTIFICATIONSAPI\\appsettings.json",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EmailController.cs",
               "DocumentMoniker": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\Controllers\\EmailController.cs",
               "RelativeDocumentMoniker": "FCG_NOTIFICATIONSAPI\\Controllers\\EmailController.cs",
               "ToolTip": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\Controllers\\EmailController.cs",
               "RelativeToolTip": "FCG_NOTIFICATIONSAPI\\Controllers\\EmailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T20:26:05.603Z",
               "EditorCaption": ""
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\Program.cs",
               "RelativeDocumentMoniker": "FCG_NOTIFICATIONSAPI\\Program.cs",
@@ -85,12 +85,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "FCG_NOTIFICATIONSAPI\\Services\\EmailService.cs",
-              "ToolTip": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\Services\\EmailService.cs*",
-              "RelativeToolTip": "FCG_NOTIFICATIONSAPI\\Services\\EmailService.cs*",
+              "ToolTip": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\Services\\EmailService.cs",
+              "RelativeToolTip": "FCG_NOTIFICATIONSAPI\\Services\\EmailService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T20:10:23.876Z",

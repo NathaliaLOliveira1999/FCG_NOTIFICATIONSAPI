@@ -42,8 +42,7 @@
               "RelativeToolTip": "FCG_NOTIFICATIONSAPI\\appsettings.json",
               "ViewState": "AgIAAAIAAAAAAAAAAAAmwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-11T20:40:07.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:40:07.008Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "FCG_NOTIFICATIONSAPI\\Controllers\\EmailController.cs",
               "ToolTip": "C:\\FIAP PROJ\\FCG_NOTIFICATIONSAPI\\FCG_NOTIFICATIONSAPI\\Controllers\\EmailController.cs",
               "RelativeToolTip": "FCG_NOTIFICATIONSAPI\\Controllers\\EmailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T20:26:05.603Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "FCG_NOTIFICATIONSAPI\\Program.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAAAEEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:10:30.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:10:30.349Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "FCG_NOTIFICATIONSAPI\\Services\\EmailService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:10:23.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:10:23.876Z"
             }
           ]
         }
